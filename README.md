@@ -7,13 +7,10 @@ The investigation aims at examining the application of computer vision tools to 
 
 ## Aims and objectives
 
-What were the original aims and objectives? Did they change / iterate throughout the course of the investigation?
 The initial aim of the investigation was to use computer vision tools to examine the gendered depictions of domestic appliances advertisements in historical magazines and journals. This aim was devised to 1) have a dedicated investigation within the energy strand that explores the uses of energy apart from its production and transmission, and 2) to contribute to the historical scholarship exploring the gendered depiction of advertisements.
 After initial tests with the computer vision tool, it was noted that the tool was possibly not trained on historical images and low-resolution/poor quality images, given that the tool was less accurate with detection on such image types. As a result, the investigation refocused its core aim on asking what image standards and digital requirements would be needed to train a computer vision tool for specific questions. In this investigation, we are also planning on exploring how ChatGPT can assist users as a technical adviser on setting up the computer vision tool. 
 
 ## People
-
-Who has participated in the investigation and in what capacity? Has that changed throughout?
 
 #### Daniel Belteki (Research Fellow on the Congruence Engine Project) 
 Daniel took part in the investigation development, data collection, and image editing
@@ -30,8 +27,7 @@ Kylea and Bernard have been involved in the investigation to provide advice base
 
 
 ## Data
-What datasets were used and how were they acquired? What new / cleaned up datasets were produced?
-
+The project employed the datasets below:
 #### The Electrical Age 
 Digitised and OCR captured version of the first two volumes of the historical magazine/journal The Electrical Age. This was provided to the Congruence Engine Project by the archives of the Institute of Engineering & Technology.
 
@@ -44,8 +40,8 @@ The Science Museum Group archives include a large collection of trade literature
 
 ## Method
 
-What were the different methods and techniques used throughout the investigation? This includes both technical, humanities, and/or participatory focused methods.
 We have been examining the usefulness of the Visual Geometry Group’s Image Classification Engine for the purposes of detecting domestic appliances in ads found in historical journal and magazines. Visual Geometry Group's (VGG) Visual Image Classification Engine (VIC Engine) is an image classification engine that trains Support Vector Machine (SVM) classifier on-the-fly, using a set of given training images, either as files or fetched online via e.g. Google images. VGG's key objective in developing VIC was a sustainable approach in the face of growing size of datasets and the data annotation needs that it implies.
+
 The initial tests were carried out via the following method:
 1a) Images of domestic appliances were identified in The Electrical Age. Two versions of these images were prepared: one where the ads were cropped out from among the text, and one where the entire page was present.
 1b) Additional images of domestic appliances for comparative tests were identified in the following magazines and journals:  Life, Good Housekeeping, The Woman Engineer. Additional images were collected from the Science Museum Group online collections. 
@@ -54,13 +50,11 @@ The initial tests were carried out via the following method:
 4) We then undertake a manual visual comparison of the identifications produced.
 
 ## Key initial findings
-List the key findings of the investigation, keeping in mind the project’s need to form recommendations for TaNC and produce a design specification for the national collection as social machine.
 1)	The initial tests showed that objects were identified with higher accuracy on images featuring no texts and illustrations in colour. Objects were also identified with higher accuracy in more contemporary images. 
 
 2)	The two different models tested also performed differently, but rather than one being more accurate than the other, they identified objects with different (though still relevant) categories and sometimes identified objects that the other model did not.
 
 ## Challenges
-If not already noted elsewhere, please highlight some of the challenges (both expected and unexpected) that you’ve come across in the investigation.
 1)	During the data collection, the IET archives noted that they have no standard form prepared for allowing the use of their files for digital humanities tools.
 
 2)	The IET archives also noted their concerns about the lack of data control when they share documents with short-term projects. The main concern was a lack of information about the fate of the data shared after a project ends. 
@@ -82,13 +76,11 @@ If not already noted elsewhere, please highlight some of the challenges (both ex
 10)	There are also concerns about the labels applied to the objects and individuals featured on the images. For example, this was especially noticeable through one of the model’s attempts to identify the gender of the person being depicted on the images. Although our investigation focuses on the identification of objects, rather than the individuals, it is important to note this underlying limitation of the tool. 
 
 ## Outputs
-What outputs have been produced as part of this investigation? This could include blogs, conference papers or articles, as well as code, new datasets or tools.
 1)	The investigation has so far generated a series of screenshots showing the output of the initial tests. These have served as the basis to evaluate the usefulness of the different engines, and as the starting points for the discussions in relation to the challenges and potentials of the tool.
 
 2)	As part of the preparation for the work, the investigation also collected a series of images from online and historical sources that depict domestic appliances. These are planned to serve as the basis for any future training work and/or for testing the engine.
 
 ## Opportunities for future research (how this might connect to the final phase of CE)
-As the project moves towards a Bradford Convergence, what from this investigation might be beneficial to take forward, learn from or apply? Also consider is there is scope for additional funding, or for you to develop the research further in another way.
 1)	Computer vision tools have been rarely trained on historical newspapers. SIAMESE (https://lab.kb.nl/tool/siamese) is an exception to this, which provides an annotated set of images of advertisements from Dutch historical newspapers. Given that the readily available models already showcase difficulties with identifying entities in historical images (i.e. with brownish/yellowish background), it would be useful to explore whether a model should be trained specifically for the exploration of historical documents (including newspapers). It would also be useful to establish contact with the developers of SIAMESE in order to test whether the application of their model would improve the detection of items within our datasets.
 
 2)	During the investigation it was identified that a key source (Good Housekeeping) is already digitised, but it is held by a commercial entity (ProQuest). It would be useful to initiate contact with this company to discuss how they view the provision of materials for research projects and what their views are on the application of digital humanities tools to the digitised journals/magazines they hold. There is a wider discussion here that is of interest to the Congruence Engine, which is the inclusion of discussions with commercial entities about their view on being involved within a future national collection.
