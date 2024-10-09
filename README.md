@@ -10,20 +10,20 @@ The investigation aims at examining the application of computer vision tools to 
 The initial aim of the investigation was to use computer vision tools to examine the gendered depictions of domestic appliances advertisements in historical magazines and journals. This aim was devised to 1) have a dedicated investigation within the energy strand that explores the uses of energy apart from its production and transmission, and 2) to contribute to the historical scholarship exploring the gendered depiction of advertisements.
 After initial tests with the computer vision tool, it was noted that the tool was possibly not trained on historical images and low-resolution/poor quality images, given that the tool was less accurate with detection on such image types. As a result, the investigation refocused its core aim on asking what image standards and digital requirements would be needed to train a computer vision tool for specific questions. In this investigation, we are also planning on exploring how ChatGPT can assist users as a technical adviser on setting up the computer vision tool. 
 
-## People
 
-#### Daniel Belteki (Research Fellow on the Congruence Engine Project) 
-Daniel took part in the investigation development, data collection, and image editing
-#### Kunika Kono (Congruence Engine Project, School of Advanced Studies) 
-Kunika provided aid in setting up the computer vision tool and carrying out the initial experiments with it. 
-#### Anne Locker (Institute of Engineering and Technology) 
-the Archives of the IET provided the Congruence Engine Project with a digitised version of the first two volumes of the Electrical Age 
-#### Alex Butterworth (Congruence Engine Project) 
-Alex provided help in the selection of computer vision tools, and in developing the course of the investigation
-#### Graeme Gooday (Congruence Engine Project, Leeds University) 
-Graeme provided historical contextualisation for the data gathered and is participating in the ongoing development of the research question
-#### Kylea Little and Bernard Musesengwe (Discovery Museum)
-Kylea and Bernard have been involved in the investigation to provide advice based on their expertise as museum practitioners 
+## People 
+
+**Daniel Belteki** : Conceptualization, Investigation, Data curation, Formal analysis, Methodology, Visualization 
+
+**Kunika Kono**: Methodology, Software
+
+**Anne Locker** : Data Curation , Resources
+
+**Alex Butterworth** : Methodology, Investigation
+
+**Graeme Gooday** : Investigation, Methodology
+
+**Kylea Little**: Investigation, Methodology
 
 
 ## Data
