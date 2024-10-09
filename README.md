@@ -10,17 +10,17 @@ The investigation aims at examining the application of computer vision tools to 
 
 ## People 
 
-Daniel Belteki (Research Fellow on the Congruence Engine Project): Daniel took part in the investigation development, data collection, and image editing
+**Daniel Belteki** : Conceptualization, Investigation, Data curation, Formal analysis, Methodology, Visualization 
 
-Kunika Kono (Congruence Engine Project, School of Advanced Studies) : Kunika provided aid in setting up the computer vision tool and carrying out the initial experiments with it.
+**Kunika Kono**: Methodology, Software
 
-Anne Locker (Institute of Engineering and Technology): the Archives of the IET provided the Congruence Engine Project with a digitised version of the first two volumes of the Electrical Age
+**Anne Locker** : Data Curation , Resources
 
-Alex Butterworth (Congruence Engine Project): Alex provided help in the selection of computer vision tools, and in developing the course of the investigation
+**Alex Butterworth** : Methodology, Investigation
 
-Graeme Gooday (Congruence Engine Project, Leeds University) : Graeme provided historical contextualisation for the data gathered and is participating in the ongoing development of the research question
+**Graeme Gooday** : Investigation, Methodology
 
-Kylea Little and Bernard Musesengwe (Discovery Museum): Kylea and Bernard have been involved in the investigation to provide advice based on their expertise as museum practitioners
+**Kylea Little**: Investigation, Methodology
 
 
 
