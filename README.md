@@ -79,3 +79,8 @@ The initial tests were carried out via the following method:
 1)	The investigation has so far generated a series of screenshots showing the output of the initial tests. These have served as the basis to evaluate the usefulness of the different engines, and as the starting points for the discussions in relation to the challenges and potentials of the tool.
 
 2)	As part of the preparation for the work, the investigation also collected a series of images from online and historical sources that depict domestic appliances. These are planned to serve as the basis for any future training work and/or for testing the engine.
+
+
+## Licence 
+This work is licensed under a [Creative Commons Attribution 4.0 License - CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
